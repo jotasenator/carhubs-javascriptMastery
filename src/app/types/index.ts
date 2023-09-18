@@ -52,3 +52,11 @@ export type ShowMoreProps = {
     pageNumber: number;
     isNext: boolean;
 }
+
+export type SearchParamsProps = {
+    manufacturer: string;
+    fuel: string;
+    year: number;
+    limit: number;
+    model: string;
+}
